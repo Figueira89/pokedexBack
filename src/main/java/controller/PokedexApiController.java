@@ -31,14 +31,14 @@ public class PokedexApiController {
 
     @CrossOrigin
     @GetMapping("/getAllMock")
-    public JSONArray getAllMock() throws IOException, ParseException {
+    public JSONObject getAllMock() throws IOException, ParseException {
        String path = "src/resources/mock.json";
 
         // parsing file "JSONExample.json"
         Object obj = new JSONParser().parse(new FileReader(path));
 
         // typecasting obj to JSONObject
-        JSONArray json = (JSONArray) obj;
+        JSONObject json = (JSONObject) obj;
 
 
 
