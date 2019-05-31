@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db67dd78-2e87-4f38-bbf5-06ac1ef032db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PokeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PokeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/PokeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pokedex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pokedex.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../spring-mongodb/target/" />
@@ -15,74 +17,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="359">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/PokeModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/me/sargunvohra/lib/pokekotlin/2.3.0/pokekotlin-2.3.0-sources.jar!/me/sargunvohra/lib/pokekotlin/model/pokemon.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="274">
+              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1951#1952#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -92,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -113,10 +74,42 @@
         <option value="$PROJECT_DIR$/../spring-mongodb/src/main/java/com/example/springmongodb/springmongodb/repository/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/../spring-mongodb/src/main/java/com/example/springmongodb/springmongodb/SpringMongodbApplication.java" />
         <option value="$PROJECT_DIR$/src/resources/mock.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/main/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PokeModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Moves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TmHm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EggMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TutorMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Gen34.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Damages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Abilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Misc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repository/PokeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java" />
+        <option value="$PROJECT_DIR$/src/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Stats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TmHm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/EggMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TutorMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Gen34.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Moves.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Damages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Abilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Misc.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Evolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" />
       </list>
     </option>
   </component>
@@ -137,10 +130,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1338" />
-    <option name="y" value="3" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,7 +173,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="pokedex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pokedex" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +181,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="pokedex" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pokedex" type="b2602c69:ProjectViewProjectNode" />
@@ -205,17 +198,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550164699728" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558984420847" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-mongodb" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.pokedex.model" />
+      <recent name="model" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\luiz.h.figueira\Documents\Studies\pokedexBack\src\resources" />
     </key>
@@ -238,7 +237,7 @@
   </component>
   <component name="RunManager" selected="Application.PokedexAPI">
     <configuration name="PokedexAPI" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="main.Application" />
+      <option name="MAIN_CLASS_NAME" value="br.com.pokedex.Application" />
       <module name="pokedexBack" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -353,10 +352,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3207262" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34114978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,15 +375,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5885246" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43207857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4942717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
-      <window_info anchor="right" id="Codota" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,10 +392,11 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="8" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Codota" order="10" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3207262" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34114978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,50 +406,26 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5885246" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43207857" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4942717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
-      <window_info anchor="right" id="Codota" order="0" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="9" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Codota" order="10" weight="0.32980332" />
     </layout-to-restore>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -456,13 +441,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/ClassLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/lang/ClassLoader.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/PokeTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -523,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/me/sargunvohra/lib/pokekotlin/2.3.0/pokekotlin-2.3.0.jar!/me/sargunvohra/lib/pokekotlin/client/PokeApi.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -544,63 +516,275 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Application.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/me/sargunvohra/lib/pokekotlin/2.3.0/pokekotlin-2.3.0-sources.jar!/me/sargunvohra/lib/pokekotlin/model/pokemon.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state relative-caret-position="328">
+          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/PokeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/repository/MongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/me/sargunvohra/lib/pokekotlin/2.3.0/pokekotlin-2.3.0-sources.jar!/me/sargunvohra/lib/pokekotlin/model/pokemon.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PokeModel.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar!/com/mongodb/Mongo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
           <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4-sources.jar!/com/mongodb/Mongo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="498" column="14" selection-start-line="498" selection-start-column="14" selection-end-line="498" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4-sources.jar!/com/mongodb/DBCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="142" column="4" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TmHm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/EggMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TutorMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Gen34.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Moves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Damages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Abilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Misc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="21" column="5" selection-start-line="19" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Evolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1951#1952#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
@@ -656,7 +840,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>pokedex</last-edited>
+          <last-edited>pokedexBack</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -679,11 +863,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.json:json:20180813</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.44200626" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,6 +1,6 @@
-package main;
+package br.com.pokedex;
 
-import controller.PokedexApiController;
+import br.com.pokedex.controller.PokedexApiController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses = PokedexApiController.class)
+@ComponentScan(basePackages = "br.com.pokedex")
 public class Application {
 
     private String allowedOrigin = "localhost:8080";

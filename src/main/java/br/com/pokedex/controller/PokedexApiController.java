@@ -1,45 +1,61 @@
-package controller;
+package br.com.pokedex.controller;
 
-import me.sargunvohra.lib.pokekotlin.client.PokeApi;
-import me.sargunvohra.lib.pokekotlin.client.PokeApiClient;
-import me.sargunvohra.lib.pokekotlin.model.NamedApiResource;
-import me.sargunvohra.lib.pokekotlin.model.Pokemon;
-import me.sargunvohra.lib.pokekotlin.model.PokemonType;
-import model.PokeModel;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.springframework.web.bind.annotation.CrossOrigin;
+import br.com.pokedex.model.Pokemon;
+import br.com.pokedex.repository.PokeRepository;
+import com.mongodb.*;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import org.bson.codecs.configuration.CodecRegistry;
+import org.bson.codecs.pojo.PojoCodecProvider;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+
+import static org.bson.codecs.configuration.CodecRegistries.fromProviders;
+import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
 @RequestMapping("/api")
 @RestController
 public class PokedexApiController {
 
+    @Autowired
+    PokeRepository repository;
+
     @GetMapping("/getAll")
-    public List<PokeModel> getAll() {
-        PokeApi pokeApi = new PokeApiClient();
-        List<NamedApiResource> list = pokeApi.getPokemonList(0, 80).getResults();
-        List<Pokemon> pokemons = new ArrayList<>();
-        for (NamedApiResource pokemon : list) {
-            pokemons.add(pokeApi.getPokemon(pokemon.getId()));
-        }
+    public List<Pokemon> getAll() throws IOException {
 
-        List<PokeModel> pokeModelList = getPokemons(pokemons);
+        List<Pokemon> pokemonList = new ArrayList<>();
 
-        return pokeModelList;
+
+        CodecRegistry pojoCodecRegistry = fromRegistries(MongoClient.getDefaultCodecRegistry(),
+                fromProviders(PojoCodecProvider.builder().register("br.com.pokedex.model").build()));
+
+        MongoClient mongoClient = new MongoClient("localhost", MongoClientOptions.builder().codecRegistry(pojoCodecRegistry).build());
+        MongoDatabase db = mongoClient.getDatabase("PokeDB");
+
+        MongoCollection<Pokemon> collection = db.getCollection("Pokedex", Pokemon.class);
+
+
+        Block<Pokemon> printBlock = pokemon -> pokemonList.add(pokemon);
+
+
+        collection.find().forEach(printBlock);
+
+
+        Collections.sort(pokemonList, new Pokemon.SortByNumber());
+
+        return pokemonList;
     }
 
-    private List<PokeModel> getPokemons(List<Pokemon> pokemons) {
+
+
+   /* private List<PokeModel> getPokemons(List<Pokemon> pokemons) {
         List<PokeModel> pokeModelList = new ArrayList<>();
         for (Pokemon pokemon : pokemons) {
             PokeModel model = new PokeModel();
@@ -73,7 +89,7 @@ public class PokedexApiController {
 
 
         return json;
-    }
+    }*/
 
 
 }
