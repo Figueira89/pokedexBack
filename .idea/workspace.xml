@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db67dd78-2e87-4f38-bbf5-06ac1ef032db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PokeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/PokeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pokedex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pokedex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../spring-mongodb/target/" />
@@ -25,23 +22,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="34">
+              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1951#1952#0" expanded="true" />
-                <element signature="e#1983#1984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,10 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/PokedexApiController.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/PokeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java" />
         <option value="$PROJECT_DIR$/src/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Stats.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Level.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TmHm.java" />
@@ -109,6 +100,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Evolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java" />
       </list>
     </option>
@@ -142,6 +135,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +176,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pokedex" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pokedex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pokedexBack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pokedex" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -198,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,7 +367,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34114978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -374,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5885246" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58756137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4942717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,27 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/PokeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.0.10.RELEASE/spring-data-mongodb-2.0.10.RELEASE.jar!/org/springframework/data/mongodb/repository/MongoRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,152 +574,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Stats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TmHm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/EggMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TutorMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Gen34.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Moves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Damages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Sex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Abilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Misc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Stats.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Level.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TmHm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/EggMove.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/TutorMove.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Gen34.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Moves.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Damages.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Sex.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Abilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Misc.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,32 +602,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Evolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Poke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#1983#1984#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Evolution.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -781,10 +610,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/PokeModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/model/Pokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/controller/PokedexApiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="34">
+          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/pokedex/repository/PokeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

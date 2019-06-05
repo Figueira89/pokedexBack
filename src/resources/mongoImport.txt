@@ -1,0 +1,1 @@
+mongoimport.exe --db PokeDB --collection Pokedex --file <PathToFile> --jsonArray --maintainInsertionOrder

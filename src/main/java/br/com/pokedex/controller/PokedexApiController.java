@@ -45,8 +45,12 @@ public class PokedexApiController {
         Block<Pokemon> printBlock = pokemon -> pokemonList.add(pokemon);
 
 
-        collection.find().forEach(printBlock);
+        /**
+         * TODO Procurar uma maneira para trazer os registros ordenados na paginação.
+         */
+        collection.find().limit(20).forEach(printBlock);
 
+        //collection.find().forEach(printBlock);
 
         Collections.sort(pokemonList, new Pokemon.SortByNumber());
 
