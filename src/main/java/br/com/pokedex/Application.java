@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @ComponentScan(basePackages = "br.com.pokedex")
 public class Application {
 
-    private String allowedOrigin = "localhost:8080";
+    private String allowedOrigin = "localhost:4200";
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

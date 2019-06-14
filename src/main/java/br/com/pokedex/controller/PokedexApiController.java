@@ -8,9 +8,7 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,14 +18,17 @@ import java.util.List;
 import static org.bson.codecs.configuration.CodecRegistries.fromProviders;
 import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
 @RestController
 public class PokedexApiController {
 
+    public static final Integer PAGE_SIZE = 20;
     @Autowired
     PokeRepository repository;
 
     @GetMapping("/getAll")
+    //@RequestParam Integer pageNum
     public List<Pokemon> getAll() throws IOException {
 
         List<Pokemon> pokemonList = new ArrayList<>();
@@ -45,10 +46,11 @@ public class PokedexApiController {
         Block<Pokemon> printBlock = pokemon -> pokemonList.add(pokemon);
 
 
+        collection.find().forEach(printBlock);
         /**
          * TODO Procurar uma maneira para trazer os registros ordenados na paginação.
          */
-        collection.find().limit(20).forEach(printBlock);
+        //collection.find().limit(20).forEach(printBlock);
 
         //collection.find().forEach(printBlock);
 
